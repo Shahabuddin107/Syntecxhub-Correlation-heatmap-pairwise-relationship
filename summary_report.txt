@@ -1,0 +1,17 @@
+Project - 3: Correlation Heatmap & Pairwise Relationships Summary
+
+1. Strongest Positive Correlation:
+- Features: 'petal_length' and 'petal_width' (Correlation = +0.96)
+- Explanation: In dono features ke beech near-perfect positive linear relationship hai. Iska matlab jab petal length badhti hai, toh petal width bhi usi proportion mein linearly increase hoti hai.
+
+2. Strongest Negative Correlation:
+- Features: 'sepal_width' and 'petal_length' (Correlation = -0.43)
+- Explanation: Inke beech moderate negative correlation paya gaya hai. Matlab jab sepal width badhti hai, toh petal length generally decrease hone ka trend dikhati hai.
+
+3. Weak / Negligible Correlation:
+- Features: 'sepal_length' and 'sepal_width' (Correlation = -0.12)
+- Explanation: Inka score 0 ke kafi kareeb hai, jo ye show karta hai ki in dono variables ke beech koi direct linear relationship nahi hai.
+
+4. Pairplot Observations:
+- Pairplot se clear hota hai ki 'petal_length' vs 'petal_width' ka scatter plot ek clean linear line form karta hai.
+- Diagonal plots (KDE) feature distributions ki skewness aur clusters ko clearly visualize karte hain.
